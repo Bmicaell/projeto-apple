@@ -67,10 +67,17 @@ main {
     
     
 }
-section > img {
+section  img {
     width: 445px;
     display: block;
     margin: auto;
+}
+
+img.size {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .title {
@@ -107,15 +114,16 @@ section {
 }
 
 section h1 {
-    padding: 10px 120px 0px 0px;
-    margin-left:120px;
+    padding: 10px 120px 0px 120px;
+    
+   
 
     
 }
 
 section  p {
-    padding: 10px 120px 0px 0px;
-    margin-left:120px;
+    padding: 10px 120px 0px 120px;
+    
 
     
 }
@@ -173,7 +181,7 @@ aside h1 {
 
 aside li, p {
     padding-bottom: 7px;
-    font-weight: 6300;
+    font-weight: 300;
 }
 
 footer{
