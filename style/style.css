@@ -67,16 +67,14 @@ main {
     
 }
 section  img {
-
-    
-
+    max-width: 450px;
     width: 80vw;
     display: block;
     margin: auto;
 }
 
 img.size {
-
+    max-width: 250px;
     display: block;
     width: 80vw;
     margin: auto;
@@ -129,12 +127,13 @@ section.normal {
 section.imagem {
 
     
-    background-size: cover;
+    padding-bottom: 80vh;
     background-attachment: fixed;
 
 }
 
 section h1 {
+    
     
     text-align: center;
 
