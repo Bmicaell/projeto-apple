@@ -116,11 +116,17 @@ section {
     
 }
 
+section {
+    color: black;
+}
 
 section.normal {
     background-color: var(--cor01);
 
     padding: 20px;
+    margin: 10px 0px;
+
+    border-radius: 20px;
 
 }
 
@@ -132,13 +138,20 @@ section.imagem {
 
 }
 
-section h1 {
-    
-    
+section > h1 {
+
+    color: black;
+
+}
+
+h1.title01 {
     text-align: center;
-
     color: #F5F5F7;
+}
 
+h1.title02 {
+    text-align: center;
+    color: #F5F5F7;
 }
 
 
@@ -155,7 +168,7 @@ section#img02 {
     background-size: cover;
     background-position:  center center;
 
-    color: black;
+    
     
 }
 
